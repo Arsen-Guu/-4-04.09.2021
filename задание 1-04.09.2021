@@ -1,0 +1,11 @@
+04.09.2021 задание 1
+#include <iostream>
+using namespace std;
+int main()
+{
+    int count_ban = 2, count_cof = 3, count_ice = 4;
+    float price_ban = 50, price_cof = 35, price_ice = 15, sum = 0;
+    sum = price_ban * count_ban + price_cof * count_cof + price_ice * count_ban;
+    cout << sum;
+    return 1;
+}
