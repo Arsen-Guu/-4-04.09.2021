@@ -1,0 +1,20 @@
+#include <iostream>
+    using namespace std;
+    int main()
+    {
+        setlocale(LC_ALL, "Rus");
+        float x,res;
+        while (true)
+        {
+            cout << "Введите число, если хотите прервать ввод, нажмите 0: ";
+            cin >> x;
+            if (x == 0)
+            {
+                cout << 0;
+                break;
+            }
+            res = x * x * x;
+            cout << res << "\n";
+        }
+        return 1;
+    }
